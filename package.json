@@ -1,16 +1,15 @@
 {
-  "name": "@pangolindex/sdk",
+  "name": "context-exchange-sdk",
   "license": "MIT",
-  "version": "1.1.0",
-  "description": "🛠 An SDK for building applications on top of Pangolin.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of Context.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pangolindex/sdk",
+  "repository": "https://github.com/context-finance/sdk",
   "keywords": [
-    "pangolin",
     "avalanche"
   ],
   "module": "dist/sdk.esm.js",
@@ -23,7 +22,7 @@
   },
   "dependencies": {
     "@openzeppelin/cli": "^2.8.2",
-    "@pangolindex/exchange-contracts": "^1.0.1",
+    "context-exchange-contracts": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
