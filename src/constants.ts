@@ -24,7 +24,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.AVALANCHE]: '0x9F0e80Ac5E09Dd1E37b40E8CDd749768FEAD43EB'
 }
 
-export const INIT_CODE_HASH = '0x40231f6b438bce0797c9ada29b718a87ea0a5cea3fe9a771abdd76bd41a3e545'
+export const INIT_CODE_HASH = '0xe73517a8570a7feab6427cf62e298b0285fb41cc00c62378b5e4c774d0b5a9d2'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
